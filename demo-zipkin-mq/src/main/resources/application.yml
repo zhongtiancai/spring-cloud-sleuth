@@ -1,0 +1,8 @@
+spring:
+    zipkin:
+        rabbitmq:
+            queue: zipkin
+    sleuth:
+        sampler:
+            probability: 1
+            percentage: 1
